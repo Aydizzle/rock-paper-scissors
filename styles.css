@@ -1,0 +1,35 @@
+button {
+  font-size: 20px;
+  size: 50px;
+  color: blue;
+  background-color: aqua;
+  border: 2px solid blue;
+  border-radius: 2px;
+}
+
+button:hover {
+  color: white;
+  background-color: blue;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+h1 {
+  text-align: center;
+}
+
+.selections {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+body {
+  width: 100%;
+  align-items: center;
+}
+
